@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-r
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
@@ -113,9 +113,9 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _decrementCounter,
-        tooltip: 'decrement',
-        child: const Icon(Icons.sub),
+        onPressed: _incrementCounter,
+        tooltip: 'increment',
+        child: const Icon(Icons.add),
       ),
     );
   }
